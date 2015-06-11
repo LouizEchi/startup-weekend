@@ -1,4 +1,6 @@
-@extends('layouts.default')
+@extends('layouts.main')
+
+
 
 @section('content')
     <!-- /.container -->
@@ -28,7 +30,7 @@
     </div>
      
      <div id="page-top" class="container-fluid">
-        <div style="padding-left: 100px;" class="col-sm-8" id="promos-container" data-get-url="{{route('api.promos.index')}}">
+      <div style="padding-left: 100px;" class="col-sm-8" id="promos-container" data-get-url="{{route('api.promos.index')}}">
 
           <div class="col-sm-4"></div>
       </div>
@@ -80,7 +82,3 @@
        </div>
      </div>
 @show
-
-@content('scripts')
-   <script src="dist/js/dynamic_promos.js"></script>
-@stop

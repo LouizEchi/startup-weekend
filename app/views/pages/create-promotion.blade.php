@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.main')
 
 @section('styles')
     <link rel="stylesheet" href="../dist/css/create-promotion.css">

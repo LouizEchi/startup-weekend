@@ -1,4 +1,4 @@
-@extends('layouts.default')
+@extends('layouts.main')
 
 @section('content')
     <!-- /.container -->
@@ -21,7 +21,7 @@
                   <div class="form-group has-feedback">
                     <input type="password" id="password" name="password" placeholder="password" class="form-control">
                   </div>
-                  <button class="btn btn-success">Log In</button>
+                  <button class="btn btn-success text-center">Log In</button>
                 </fieldset>
               </form>
               <hr>
